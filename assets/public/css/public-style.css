@@ -1,0 +1,28 @@
+/* تنسيق إعلان الفوتر */
+#adsrevshare-footer-ad {
+    display: none; /* مخفي بشكل افتراضي */
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 9999;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* تنسيق زر الإغلاق */
+#adsrevshare-close-ad {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+  color: #000;
+}
+
+

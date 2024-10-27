@@ -1,0 +1,217 @@
+/* تنسيق عام لصفحة الإعدادات */
+.adsrevshare-settings-page {
+    max-width: 950px;
+    margin: 25px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* تنسيق عنوان الصفحة */
+.adsrevshare-page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  background-color: #ddd;
+  padding: 20px !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق زر الحفظ */
+.adsrevshare-save-button {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.adsrevshare-save-button:hover {
+    background-color: #005b8a;
+}
+
+
+/* Container for all settings fields */
+.settings-container {
+    padding: 20px 0;
+}
+
+/* Field group styling */
+.field-group {
+  margin-bottom: 2px;
+  background-color: #f0f0f0;
+  padding: 2em;
+}
+
+.field-group .field-title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input fields */
+.field-group input[type="text"],
+.field-group input[type="number"],
+.field-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.field-group input[type="text"]:focus,
+.field-group input[type="number"]:focus,
+.field-group textarea:focus {
+    border-color: #0073aa;
+    outline: none;
+}
+
+/* Textarea for custom code */
+.field-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* Checkbox and radio buttons */
+.field-group input[type="checkbox"],
+.field-group input[type="radio"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Description text */
+.field-group .description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Styling for ad positions section */
+.ad-positions label {
+    font-weight: 500;
+}
+
+.ad-positions input[type="number"] {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+/* Custom or AdSense radio buttons */
+.custom-or-adsense p {
+    margin: 10px 0;
+}
+
+
+.field-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* تنسيق كل عنصر داخل المجموعة */
+.ad-position-item, .ad-choice-item, .ad-custom-code {
+    margin-bottom: 25px;
+}
+
+/* تنسيق المدخلات (Checkbox, Radio) */
+.ad-position-item input[type="checkbox"], 
+.ad-choice-item input[type="checkbox"],
+.ad-choice-item input[type="radio"] {
+    margin-right: 8px;
+}
+
+.ad-enable {
+  margin-bottom: 20px;
+}
+
+.ad-paragraph {
+  margin-bottom: 30px !important;
+}
+
+.ad-paragraph label, .ad-custom-code label {
+  margin-bottom: 20px !important;
+  display: block;
+}
+
+
+.ad-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ad-tab {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.ad-tab.active {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.ad-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.ad-content.active {
+    display: block;
+}
+
+
+
+.field-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ad-enable,
+.ad-paragraph,
+.ad-type,
+.ad-custom-code {
+    margin-bottom: 15px;
+}
+
+.ad-choice-item {
+    margin-bottom: 5px;
+}
+
+.adsrevshare-save-button {
+    margin-top: 20px;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .settings-container {
+        padding: 15px;
+    }
+
+    .field-group .field-title {
+        font-size: .8rem;
+    }
+
+    .field-group input[type="text"],
+    .field-group input[type="number"],
+    .field-group textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}

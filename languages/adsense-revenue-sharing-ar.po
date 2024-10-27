@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: adsense-revenue-sharing\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-10-19 16:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Revenue Sharing Settings"
+msgstr "إعدادات مشاركة الأرباح"
+
+msgid "Revenue Sharing"
+msgstr "مشاركة الأرباح"
+
+msgid "Member Ad Percentage (%)"
+msgstr "نسبة إعلانات العضو (%)"
+
+msgid "Enter a percentage between 0 and 100."
+msgstr "أدخل نسبة بين 0 و 100."
+
+msgid "AdSense Publisher ID"
+msgstr "معرف حساب أدسنس"
+
+msgid "Enter your AdSense Publisher ID (pub-1234567891234567)."
+msgstr "قم بإدخال الرقم التعريفي للناشر (Publisher ID) الخاص بحسابك."
+
+msgid "Custom Channel ID (Optional)"
+msgstr "رقم القناة المخصصة (اختياري)"
+
+msgid "Enter your Custom Channel ID."
+msgstr "قم بإدخال رقم القناة المخصصة (Custom channel ID) الخاصة بحسابك."
+
+msgid "Ad Slot ID (Optional)"
+msgstr "الرقم التعريفي للوحدة الإعلانية (اختياري)"
+
+msgid "Enter your Ad Slot ID."
+msgstr "قم بإدخال الرقم التعريفي للوحدة الإعلانية (Ad slot ID) الخاصة بحسابك."
+
+msgid "Website URL (Optional)"
+msgstr "رابط الموقع (اختياري)"
+
+msgid "Enter your website URL (example.com)."
+msgstr "قم بإدخال رابط الموقع (Page URL) الخاص بحسابك. مثال: example.com."
+
+msgid "Manual ads.txt Entries"
+msgstr "إدخالات ads.txt اليدوية"
+
+msgid "Add additional lines to your ads.txt file (one entry per line)."
+msgstr "أضف أسطر إضافية إلى ملف ads.txt الخاص بك (إدخال واحد لكل سطر)."
+
+msgid "Example: google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0"
+msgstr "مثال: google.com، pub-1234567890123456، DIRECT، f08c47fec0942fa0"
+
+msgid "Ad Positions"
+msgstr "أماكن الإعلانات"
+
+msgid "Top of the article"
+msgstr "أعلى المقالة"
+
+msgid "Bottom of the article"
+msgstr "أسفل المقالة"
+
+msgid "Custom Ad %d after paragraph number"
+msgstr "إعلان مخصص %d بعد الفقرة رقم"
+
+msgid "Custom or AdSense"
+msgstr "إعلان مخصص أو AdSense"
+
+msgid "Enable Custom or AdSense"
+msgstr "تفعيل إعلان مخصص أو AdSense"
+
+msgid "Use AdSense ad"
+msgstr "استخدام إعلان AdSense"
+
+msgid "Use custom ad code"
+msgstr "استخدام كود إعلان مخصص"
+
+msgid "Custom Ad Code:"
+msgstr "كود الإعلان المخصص:"
+
+msgid "Custom Ad 1"
+msgstr "اعلان مخصص 1"
+
+msgid "Custom Ad 2"
+msgstr "اعلان مخصص 2"
+
+msgid "Custom Ad 3"
+msgstr "اعلان مخصص 3"
+
+msgid "Custom Ad 4"
+msgstr "اعلان مخصص 4"
+
+msgid "Enable"
+msgstr "تفعيل"
+
+msgid "Display after paragraph number:"
+msgstr "العرض بعد رقم الفقرة:"
+
+msgid "Footer Ad"
+msgstr "إعلان الفوتر"
